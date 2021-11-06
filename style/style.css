@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+}
+
+table {
+  margin: auto;
+  border: 3px solid white;
+  border-collapse: collapse;
+  width: 50vh;
+  height: 50vh;
+}
+
+td {
+  border: 3px solid white;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 2.5rem;
+  height: 20%;
+  width: 20%;
+  cursor: pointer;
+  color: white;
+}
+
+td:hover {
+  background-color: rgb(100, 97, 97);
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+.winner-section{
+  text-align: center;
+  display: none;
+}
+
+.winner-section > button{
+  width: 10%;
+  padding: 0.5%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/* 
+.winner{
+  display: inline-block;
+} */
